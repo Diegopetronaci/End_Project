@@ -10958,45 +10958,236 @@ body {
   overflow-x: hidden;
 }
 
-.full-height {
-  height: 100vh;
+[class*=col-] {
+  padding: 0;
 }
 
-.flex-center {
-  align-items: center;
+div.dashboard {
+  width: 100%;
+  height: 100%;
+}
+
+div.dashboard div.dashboard_row {
   display: flex;
-  justify-content: center;
 }
 
-.position-ref {
-  position: relative;
+div.dashboard div.dashboard_row div.dashboard_list {
+  padding: 24px 20px;
+  padding-bottom: 100px;
+  background: #2B313E;
 }
 
-.top-right {
-  position: absolute;
-  right: 10px;
-  top: 18px;
+div.dashboard div.dashboard_row div.dashboard_list ul li {
+  padding: 10px;
+  list-style: none;
 }
 
-.content {
+div.dashboard div.dashboard_row div.dashboard_list ul li a {
+  color: #616774;
+  text-decoration: none;
+}
+
+div.dashboard div.dashboard_row div.dashboard_list ul li.active,
+div.dashboard div.dashboard_row div.dashboard_list ul li:hover {
+  background: #262A36;
+}
+
+div.dashboard div.dashboard_row div.dashboard_list ul li.active a,
+div.dashboard div.dashboard_row div.dashboard_list ul li:hover a {
+  color: white;
+}
+
+div.dashboard div.dashboard_row main#main_content {
+  padding: 24px 20px;
+  padding-bottom: 100px;
+  background: #F7F7F9;
+  width: 100%;
+  height: 100%;
+}
+
+div.dashboard div.dashboard_row main#main_content .card_dashboard {
+  width: 100%;
+  height: 80vh;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin {
+  margin-top: 10px;
+  padding: 0 10px;
+  background: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .actions_th {
+  width: 160px;
+  padding: 0 10px;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .title_th {
+  width: calc(100% - 160px - 60px - 400px);
+  padding: 0 10px;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .series_th {
+  width: 400px;
+  padding: 0 10px;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .status_th {
+  width: 60px;
   text-align: center;
 }
 
-.title {
-  font-size: 84px;
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .cover_th {
+  width: 60px;
 }
 
-.links > a {
-  color: #636b6f;
-  padding: 0 25px;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  text-decoration: none;
-  text-transform: uppercase;
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid #ffffff;
+  align-items: center;
 }
 
-.m-b-md {
-  margin-bottom: 30px;
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table:not(:last-child) {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .actions {
+  width: 160px;
+  padding: 0 10px;
+  border-right: 2px solid #e3e3e3;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .title {
+  width: calc(100% - 160px - 60px - 400px);
+  padding: 0 10px;
+  font-weight: bold;
+  border-right: 2px solid #e3e3e3;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .series {
+  width: 400px;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .status {
+  width: 60px;
+  text-align: center;
+  border-left: 2px solid #e3e3e3;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .status.green {
+  color: green;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .status.red {
+  color: red;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .cover {
+  width: 60px;
+}
+
+div.dashboard div.dashboard_row main#main_content .table_admin .row_table .cover img {
+  width: 100%;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img {
+  position: relative;
+  border-radius: 6px;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img .cover {
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 6px;
+  position: absolute;
+  left: 2%;
+  bottom: 2%;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img .cover img {
+  width: 100%;
+  display: block;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row {
+  display: flex;
+  padding-top: 20px;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text {
+  padding-right: 20px;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 span {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 span.green {
+  color: green;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 span.red {
+  color: red;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #F7F7F9;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content {
+  display: flex;
+  padding: 10px 0;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content:not(:first-child) {
+  border-top: 1px solid #ffffff;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content:not(:last-child) {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content .name_info {
+  width: 160px;
 }
 

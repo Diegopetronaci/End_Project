@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin.dashboard')
 
 @section('content')
 <div class="container">
@@ -58,6 +58,20 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="p_iva" class="col-md-4 col-form-label text-md-right">{{ __('P.IVA') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="p_iva" type="text" class="form-control @error('p_iva') is-invalid @enderror" name="p_iva" value="{{ old('p_iva') }}" required autocomplete="p_iva" autofocus>
+
+                                @error('p_iva')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                         </div>
 

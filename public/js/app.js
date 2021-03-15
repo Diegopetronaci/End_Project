@@ -49997,10 +49997,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/dashboard.scss":
+/*!***************************************!*\
+  !*** ./resources/sass/dashboard.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!*********************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/dashboard.scss ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -50009,8 +50020,13 @@ __webpack_require__(/*! C:\Users\aless\Documents\boolean\classe 23\progetto fina
 module.exports = __webpack_require__(/*! C:\Users\aless\Documents\boolean\classe 23\progetto finale\End_Project\resources\sass\app.scss */"./resources/sass/app.scss");
 =======
 __webpack_require__(/*! /Users/angelacaterinagallo/Desktop/Boolean/corso/progetto finale/End_Project/resources/js/app.js */"./resources/js/app.js");
+<<<<<<< HEAD
+__webpack_require__(/*! /Users/angelacaterinagallo/Desktop/Boolean/corso/progetto finale/End_Project/resources/sass/app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! /Users/angelacaterinagallo/Desktop/Boolean/corso/progetto finale/End_Project/resources/sass/dashboard.scss */"./resources/sass/dashboard.scss");
+=======
 module.exports = __webpack_require__(/*! /Users/angelacaterinagallo/Desktop/Boolean/corso/progetto finale/End_Project/resources/sass/app.scss */"./resources/sass/app.scss");
 >>>>>>> d68a65497fedffb7833d811635744c0f819bb91f
+>>>>>>> 778b4d01abac0a72d1bf9dcb94e654408c397801
 
 
 /***/ })
