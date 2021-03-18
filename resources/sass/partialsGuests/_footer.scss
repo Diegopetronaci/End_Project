@@ -1,0 +1,61 @@
+footer{
+    padding: 25px 0;
+
+    .container_footer{
+        margin: auto;
+        width: 80%;
+        div{
+            width: 250px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 10px black;
+            h4{
+                font-size: 21px;
+                font-weight: bold;
+                color: white;
+            }
+            ul{
+                li{
+                    a{
+                        color: white; 
+                        font-size: 13px;
+                        img{
+                            width: 150px;
+                            margin: 5px;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottom_footer{
+        width: 80%;
+        margin: auto;
+        div{
+            ul{
+                a{
+                    i{
+                        color: white;
+                        font-size: 25px;
+                        margin-right: 25px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        .copyright{
+            color: grey;
+            margin-top: 20px;
+        }
+    }
+    .chi_siamo{
+        h1{
+            color: white;
+        }
+    }
+}
+

@@ -28,13 +28,13 @@
   --warning: #ffed4a;
   --danger: #e3342f;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #6d6680;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Roboto", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -66,7 +66,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -1981,23 +1981,23 @@ pre code {
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: #c6c8ca;
+  background-color: #d6d4db;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-  border-color: #95999c;
+  border-color: #b3afbd;
 }
 
 .table-hover .table-dark:hover {
-  background-color: #b9bbbe;
+  background-color: #c9c6cf;
 }
 
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: #b9bbbe;
+  background-color: #c9c6cf;
 }
 
 .table-active,
@@ -2964,43 +2964,43 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #6d6680;
+  border-color: #6d6680;
 }
 
 .btn-dark:hover {
   color: #fff;
-  background-color: #23272b;
-  border-color: #1d2124;
+  background-color: #5b556b;
+  border-color: #554f64;
 }
 
 .btn-dark:focus,
 .btn-dark.focus {
   color: #fff;
-  background-color: #23272b;
-  border-color: #1d2124;
-  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+  background-color: #5b556b;
+  border-color: #554f64;
+  box-shadow: 0 0 0 0.2rem rgba(131, 125, 147, 0.5);
 }
 
 .btn-dark.disabled,
 .btn-dark:disabled {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #6d6680;
+  border-color: #6d6680;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #1d2124;
-  border-color: #171a1d;
+  background-color: #554f64;
+  border-color: #4f4a5d;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active:focus,
 .btn-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(131, 125, 147, 0.5);
 }
 
 .btn-outline-primary {
@@ -3256,24 +3256,24 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #343a40;
-  border-color: #343a40;
+  color: #6d6680;
+  border-color: #6d6680;
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #6d6680;
+  border-color: #6d6680;
 }
 
 .btn-outline-dark:focus,
 .btn-outline-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(109, 102, 128, 0.5);
 }
 
 .btn-outline-dark.disabled,
 .btn-outline-dark:disabled {
-  color: #343a40;
+  color: #6d6680;
   background-color: transparent;
 }
 
@@ -3281,14 +3281,14 @@ fieldset:disabled a.btn {
 .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #6d6680;
+  border-color: #6d6680;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus,
 .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(109, 102, 128, 0.5);
 }
 
 .btn-link {
@@ -5496,19 +5496,19 @@ a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #343a40;
+  background-color: #6d6680;
 }
 
 a.badge-dark:hover,
 a.badge-dark:focus {
   color: #fff;
-  background-color: #1d2124;
+  background-color: #554f64;
 }
 
 a.badge-dark:focus,
 a.badge-dark.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(109, 102, 128, 0.5);
 }
 
 .jumbotron {
@@ -5658,17 +5658,17 @@ a.badge-dark.focus {
 }
 
 .alert-dark {
-  color: #1b1e21;
-  background-color: #d6d8d9;
-  border-color: #c6c8ca;
+  color: #393543;
+  background-color: #e2e0e6;
+  border-color: #d6d4db;
 }
 
 .alert-dark hr {
-  border-top-color: #b9bbbe;
+  border-top-color: #c9c6cf;
 }
 
 .alert-dark .alert-link {
-  color: #040505;
+  color: #211e27;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -6093,20 +6093,20 @@ a.badge-dark.focus {
 }
 
 .list-group-item-dark {
-  color: #1b1e21;
-  background-color: #c6c8ca;
+  color: #393543;
+  background-color: #d6d4db;
 }
 
 .list-group-item-dark.list-group-item-action:hover,
 .list-group-item-dark.list-group-item-action:focus {
-  color: #1b1e21;
-  background-color: #b9bbbe;
+  color: #393543;
+  background-color: #c9c6cf;
 }
 
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
-  background-color: #1b1e21;
-  border-color: #1b1e21;
+  background-color: #393543;
+  border-color: #393543;
 }
 
 .close {
@@ -6407,7 +6407,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6532,7 +6532,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -7073,14 +7073,14 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #6d6680 !important;
 }
 
 a.bg-dark:hover,
 a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: #554f64 !important;
 }
 
 .bg-white {
@@ -7160,7 +7160,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #343a40 !important;
+  border-color: #6d6680 !important;
 }
 
 .border-white {
@@ -10791,12 +10791,12 @@ a.text-light:focus {
 }
 
 .text-dark {
-  color: #343a40 !important;
+  color: #6d6680 !important;
 }
 
 a.text-dark:hover,
 a.text-dark:focus {
-  color: #121416 !important;
+  color: #494455 !important;
 }
 
 .text-body {
@@ -10962,105 +10962,94 @@ body {
   padding: 0;
 }
 
-div.dashboard {
-  width: 100%;
-  height: 100%;
-}
-
-div.dashboard div.dashboard_row {
+main#main {
   display: flex;
 }
 
-div.dashboard div.dashboard_row div.dashboard_list {
-  padding: 24px 20px;
-  padding-bottom: 100px;
+main#main aside.dashboard {
+  min-height: 100vh;
   background: #2B313E;
 }
 
-div.dashboard div.dashboard_row div.dashboard_list ul li {
+main#main aside.dashboard div.dashboard_list {
+  padding: 24px 0;
+}
+
+main#main aside.dashboard div.dashboard_list ul li {
   padding: 10px;
   list-style: none;
 }
 
-div.dashboard div.dashboard_row div.dashboard_list ul li a {
+main#main aside.dashboard div.dashboard_list ul li a {
   color: #616774;
   text-decoration: none;
 }
 
-div.dashboard div.dashboard_row div.dashboard_list ul li.active,
-div.dashboard div.dashboard_row div.dashboard_list ul li:hover {
+main#main aside.dashboard div.dashboard_list ul li.active,
+main#main aside.dashboard div.dashboard_list ul li:hover {
   background: #262A36;
 }
 
-div.dashboard div.dashboard_row div.dashboard_list ul li.active a,
-div.dashboard div.dashboard_row div.dashboard_list ul li:hover a {
+main#main aside.dashboard div.dashboard_list ul li.active a,
+main#main aside.dashboard div.dashboard_list ul li:hover a {
   color: white;
 }
 
-div.dashboard div.dashboard_row main#main_content {
-  padding: 24px 20px;
-  padding-bottom: 100px;
+main#main div#main_content {
+  padding: 10px;
   background: #F7F7F9;
-  width: 100%;
-  height: 100%;
 }
 
-div.dashboard div.dashboard_row main#main_content .card_dashboard {
-  width: 100%;
-  height: 80vh;
-}
-
-div.dashboard div.dashboard_row main#main_content .table_admin {
-  margin-top: 10px;
-  padding: 0 10px;
+main#main div#main_content .table_admin {
+  margin: 10px 0;
   background: white;
   border: 1px solid #e3e3e3;
   border-radius: 6px;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th {
+main#main div#main_content .table_admin .row_table_th {
   display: flex;
   padding: 10px 0;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #e3e3e3;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .actions_th {
+main#main div#main_content .table_admin .row_table_th .actions_th {
   width: 160px;
   padding: 0 10px;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .title_th {
-  width: calc(100% - 160px - 60px - 400px);
+main#main div#main_content .table_admin .row_table_th .types_th,
+main#main div#main_content .table_admin .row_table_th .name_th {
+  width: 300px;
   padding: 0 10px;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .series_th {
-  width: 400px;
+main#main div#main_content .table_admin .row_table_th .desc_th,
+main#main div#main_content .table_admin .row_table_th .address_th {
+  width: calc(100% - 160px - 300px - 60px - 60px);
   padding: 0 10px;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .status_th {
+main#main div#main_content .table_admin .row_table_th .price_th,
+main#main div#main_content .table_admin .row_table_th .cover_th,
+main#main div#main_content .table_admin .row_table_th .status_th {
   width: 60px;
   text-align: center;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table_th .cover_th {
-  width: 60px;
-}
-
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table {
+main#main div#main_content .table_admin .row_table {
   display: flex;
   padding: 10px 0;
   border-top: 1px solid #ffffff;
   align-items: center;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table:not(:last-child) {
+main#main div#main_content .table_admin .row_table:not(:last-child) {
   border-bottom: 1px solid #e3e3e3;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .actions {
+main#main div#main_content .table_admin .row_table .actions {
   width: 160px;
   padding: 0 10px;
   border-right: 2px solid #e3e3e3;
@@ -11068,126 +11057,63 @@ div.dashboard div.dashboard_row main#main_content .table_admin .row_table .actio
   justify-content: space-between;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .title {
-  width: calc(100% - 160px - 60px - 400px);
+main#main div#main_content .table_admin .row_table .types,
+main#main div#main_content .table_admin .row_table .name {
+  width: 300px;
   padding: 0 10px;
   font-weight: bold;
   border-right: 2px solid #e3e3e3;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .series {
-  width: 400px;
+main#main div#main_content .table_admin .row_table .desc,
+main#main div#main_content .table_admin .row_table .address {
+  width: calc(100% - 160px - 300px - 60px - 60px);
   padding: 0 10px;
   font-weight: bold;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .status {
+main#main div#main_content .table_admin .row_table .price,
+main#main div#main_content .table_admin .row_table .cover,
+main#main div#main_content .table_admin .row_table .status {
   width: 60px;
   text-align: center;
   border-left: 2px solid #e3e3e3;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .status.green {
+main#main div#main_content .table_admin .row_table .price.green,
+main#main div#main_content .table_admin .row_table .cover.green,
+main#main div#main_content .table_admin .row_table .status.green {
   color: green;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .status.red {
+main#main div#main_content .table_admin .row_table .price.red,
+main#main div#main_content .table_admin .row_table .cover.red,
+main#main div#main_content .table_admin .row_table .status.red {
   color: red;
 }
 
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .cover {
-  width: 60px;
-}
-
-div.dashboard div.dashboard_row main#main_content .table_admin .row_table .cover img {
+main#main div#main_content .table_admin .row_table .price img,
+main#main div#main_content .table_admin .row_table .cover img,
+main#main div#main_content .table_admin .row_table .status img {
   width: 100%;
 }
 
-div.dashboard div.dashboard_row main#main_content .show_admin {
-  width: 90%;
-  height: 100%;
+main#main div#main_content .table_admin .card_admin {
+  width: 70%;
   margin: 0 auto;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show {
   padding: 20px;
-  background: white;
-  border-radius: 10px;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img {
-  position: relative;
-  border-radius: 6px;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img img {
-  width: 100%;
-  display: block;
-  border-radius: 6px;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img .cover {
-  width: 200px;
-  border: 2px solid white;
-  border-radius: 6px;
-  position: absolute;
-  left: 2%;
-  bottom: 2%;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .jumbotron_img .cover img {
-  width: 100%;
-  display: block;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row {
   display: flex;
-  padding-top: 20px;
+  justify-content: space-between;
 }
 
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text {
-  padding-right: 20px;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 {
-  margin: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 span {
-  margin-left: 20px;
-  font-size: 20px;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 span.green {
-  color: green;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_text h1 span.red {
-  color: red;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info {
-  padding: 10px 20px;
+main#main div#main_content .table_admin .card_admin .card_type {
+  width: 150px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px grey;
   border-radius: 6px;
-  background: #F7F7F9;
 }
 
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content {
-  display: flex;
-  padding: 10px 0;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content:not(:first-child) {
-  border-top: 1px solid #ffffff;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content:not(:last-child) {
-  border-bottom: 1px solid #e3e3e3;
-}
-
-div.dashboard div.dashboard_row main#main_content .show_admin .card_show .card_row .card_info .info_content .name_info {
-  width: 160px;
+main#main div#main_content .table_admin .card_admin .card_type .icona {
+  text-align: center;
 }
 

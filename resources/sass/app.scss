@@ -7,7 +7,8 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-@import 'partialsGuests/_common';         // Regole comuni
+@import 'partialsGuests/_common';
+@import 'partialsGuests/_nav';         // Regole comuni
 @import 'partialsGuests/_header';         // HEADER
 @import 'partialsGuests/_main';           // MAIN
 @import 'partialsGuests/_footer';         // FOOTER

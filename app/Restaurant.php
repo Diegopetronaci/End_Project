@@ -6,6 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Restaurant extends Model
 {
+     /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name', 'slug', 'address', 'phone', 'cover', 'user_id', 'types'
+    ];
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
     /**
      * Get the user that owns the Restaurant
      *

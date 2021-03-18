@@ -1,6 +1,6 @@
 @include('layouts.guests.head')
 @include('layouts.guests.header')
-
-    @yield('content')
-
+    <div id="app">
+        @yield('content')
+    </div>
 @include('layouts.guests.footer') 

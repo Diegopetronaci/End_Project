@@ -1,12 +1,10 @@
-div.dashboard{
-    width: 100%;
-    height: 100%;
-    div.dashboard_row{
-        display: flex;
+main#main{
+    display: flex;
+    aside.dashboard{
+        min-height: 100vh;
+        background: #2B313E;
         div.dashboard_list{
-            padding: 24px 20px;
-            padding-bottom: 100px;
-            background: #2B313E;
+            padding: 24px 0;
             ul{
                 li{
                     padding: 10px;
@@ -14,7 +12,6 @@ div.dashboard{
                     a{
                         color: #616774;
                         text-decoration: none;
-                        
                     }
                     &.active,
                     &:hover{
@@ -26,167 +23,105 @@ div.dashboard{
                 } 
             }
         }
-        main#main_content{
-            padding: 24px 20px;
-            padding-bottom: 100px;
-            background: #F7F7F9;
-            width: 100%;
-            height: 100%;
-            .card_dashboard{
-                width: 100%;
-                height: 80vh;
+    }
+    div#main_content{
+        padding: 10px;
+        background: #F7F7F9;
+        .table_admin{
+            margin: 10px 0;
+            background: white;
+            border: 1px solid #e3e3e3;
+            border-radius: 6px;
+            .row_table_th{
+                display: flex;
+                padding: 10px 0;
+                border-top: 1px solid #ffffff;
+                border-bottom: 1px solid #e3e3e3;
+                .actions_th{
+                    width: 160px;
+                    padding: 0 10px;
+                }
+                .types_th,
+                .name_th{
+                    width: 300px;
+                    padding: 0 10px;
+                }
+                .desc_th,
+                .address_th{
+                    width: calc(100% - 160px - 300px - 60px - 60px);
+                    padding: 0 10px;
+                }
+                .price_th,
+                .cover_th,
+                .status_th{
+                    width: 60px;
+                    text-align: center;
+                }
             }
-            .table_admin{
-                margin-top: 10px;
-                padding: 0 10px;
-                background: white;
-                border: 1px solid #e3e3e3;
-                border-radius: 6px;
-                .row_table_th{
-                    display: flex;
-                    padding: 10px 0;
-                    border-top: 1px solid #ffffff;
+            .row_table{
+                display: flex;
+                padding: 10px 0;
+                border-top: 1px solid #ffffff;
+                align-items: center;
+                &:not(:last-child){
                     border-bottom: 1px solid #e3e3e3;
-                    .actions_th{
-                        width: 160px;
-                        padding: 0 10px;
-                    }
-                    .title_th{
-                        width: calc(100% - 160px - 60px - 400px);
-                        padding: 0 10px;
-                    }
-                    .series_th{
-                        width: 400px;
-                        padding: 0 10px;
-                    }
-                    .status_th{
-                        width: 60px;
-                        text-align: center;
-                    }
-                    .cover_th{
-                        width: 60px;
-                    }
                 }
-                .row_table{
+                .actions{
+                    width: 160px;
+                    padding: 0 10px;
+                    border-right: 2px solid #e3e3e3;
                     display: flex;
-                    padding: 10px 0;
-                    border-top: 1px solid #ffffff;
-                    align-items: center;
-                    &:not(:last-child){
-                        border-bottom: 1px solid #e3e3e3;
+                    justify-content: space-between;
+                }
+                .types,
+                .name{
+                    width: 300px;
+                    padding: 0 10px;
+                    font-weight: bold;
+                    border-right: 2px solid #e3e3e3;
+                }
+                .desc,
+                .address{
+                    width:calc(100% - 160px - 300px - 60px - 60px);
+                    padding: 0 10px;
+                    font-weight: bold;
+                }
+                .price,
+                .cover,
+                .status{
+                    width: 60px;
+                    text-align: center;
+                    border-left: 2px solid #e3e3e3;
+                    &.green{
+                        color: green;
                     }
-                    .actions{
-                        width: 160px;
-                        padding: 0 10px;
-                        border-right: 2px solid #e3e3e3;
-                        display: flex;
-                        justify-content: space-between;
+                    &.red{
+                        color: red;
                     }
-                    .title{
-                        width: calc(100% - 160px - 60px - 400px);
-                        padding: 0 10px;
-                        font-weight: bold;
-                        border-right: 2px solid #e3e3e3;
-                    }
-                    .series{
-                        width: 400px;
-                        padding: 0 10px;
-                        font-weight: bold;
-                        
-                    }
-                    .status{
-                        width: 60px;
-                        text-align: center;
-                        border-left: 2px solid #e3e3e3;
-                        &.green{
-                            color: green;
-                        }
-                        &.red{
-                            color: red;
-                        }
-                    }
-                    .cover{
-                        width: 60px;
-                        img{
-                            width: 100%;
-                        }
+                    img{
+                        width: 100%;
                     }
                 }
             }
-            .show_admin{
-                width: 90%;
-                height: 100%;
+            .card_admin{
+                width: 70%;
                 margin: 0 auto;
-                .card_show{
-                    padding: 20px;
-                    background: white;
-                    border-radius: 10px;
-                    .jumbotron_img{
-                        position: relative;
-                        border-radius: 6px;
-                        img{
-                            width: 100%;
-                            display: block;
-                            border-radius: 6px;
-                        }
-                        .cover{
-                            width: 200px;
-                            border: 2px solid white;
-                            border-radius: 6px;
-                            position: absolute;
-                            left: 2%;
-                            bottom: 2%;
-                            img{
-                                width: 100%;
-                                display: block;
-                            }
-                        }
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+
+                .card_type{
+                    width: 150px;
+                    padding: 10px;
+                    box-shadow: 2px 2px 8px grey;
+                    border-radius: 6px;
+                    .icona{
+                        text-align: center;
                     }
-                    .card_row{
-                        display: flex;
-                        padding-top: 20px;
-                        .card_text{
-                            padding-right: 20px;
-                            h1{
-                                margin: 10px 0;
-                                display: flex;
-                                align-items: center;
-                                span{
-                                    margin-left: 20px;
-                                    font-size: 20px;
-                                    &.green{
-                                        color: green;
-                                    }
-                                    &.red{
-                                        color: red;
-                                    }
-                                }
-                            }
-                        }
-                        .card_info{
-                            padding: 10px 20px;
-                            border-radius: 6px;
-                            background: #F7F7F9;
-                            .info_content{
-                                display: flex;
-                                padding: 10px 0;
-                                &:not(:first-child){
-                                    border-top: 1px solid #ffffff;
-                                }
-                                &:not(:last-child){
-                                    border-bottom: 1px solid #e3e3e3;
-                                }
-                                .name_info{
-                                    width: 160px;
-                                }
-                            }
-                        }
-                    }
-                    
                 }
             }
+            
         }
     }
 }
-
   

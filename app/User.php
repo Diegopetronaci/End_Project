@@ -46,4 +46,14 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Restaurant');
     }
+
+    /**
+     * Get all of the dishes for the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function dishes()
+    {
+        return $this->hasMany('App\Dish');
+    }
 }

@@ -1,9 +1,9 @@
-@extends('layouts.admin.dashboard')
+@extends('layouts.guests.app')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('Confirm Password') }}</div>
 

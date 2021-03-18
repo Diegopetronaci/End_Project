@@ -3,7 +3,9 @@
         <div class="top-right links">
             @auth
                 <a href="{{ url('/') }}">Home</a>
+                <a href="{{ route('login') }}">Dashboard</a>
             @else
+                <a href="{{ url('/') }}">Home</a>
                 <a href="{{ route('login') }}">Login</a>
 
                 @if (Route::has('register'))

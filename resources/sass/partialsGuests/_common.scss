@@ -53,4 +53,74 @@ html, body {
 
 .m-b-md {
     margin-bottom: 30px;
+} 
+
+li{
+    list-style: none;
 }
+
+a{
+    text-decoration: none;
+}
+
+#app{
+    width: 100%;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.d_flex_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.center{
+    justify-content: center;
+}
+.space_between{
+    justify-content: space-between;
+}
+
+.bg_dark{
+    background-color: $dark;
+}
+
+.bg_grey{
+    background-color: $gray;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.slide-in-top {
+    -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-top {
+        0% {
+        -webkit-transform: translateY(-1000px);
+                transform: translateY(-1000px);
+        opacity: 0;
+        }
+        100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+        }
+    }
+    @keyframes slide-in-top  {
+        0% {
+        -webkit-transform: translateY(-1000px);
+                transform: translateY(-1000px);
+                opacity: 0;
+        }
+        100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+        }
+    }
+

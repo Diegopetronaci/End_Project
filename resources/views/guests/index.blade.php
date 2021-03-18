@@ -1,13 +1,14 @@
-@extends('layouts.guests.app')
+@extends('layouts.guests.guest')
 
 @section('content')
-<div class="content">
-    <div class="title m-b-md">
-        End_Project
-    </div>
 
-    <div class="links">
-        <a href="https://github.com/andreadau/End_Project">Github</a>
-    </div>
-</div>
+<!-- NavBar - Component - Vue.js -->
+<navbar-component></navbar-component>
+<!-- Header - Component - Vue.js -->
+<header-component></header-component>
+<!-- Main - Component - Vue.js -->
+<main-component></main-component>
+<!-- Footer - Component - Vue.js -->
+<footer-component></footer-component>
+
 @endsection

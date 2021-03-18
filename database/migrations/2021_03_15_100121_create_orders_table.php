@@ -21,7 +21,7 @@ class CreateOrdersTable extends Migration
             $table->string('customer_phone');
             $table->string('customer_city');
             $table->string('customer_address');
-            $table->integer('customer_CAP');
+            $table->string('customer_CAP');
             $table->timestamps();
         });
     }

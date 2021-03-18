@@ -1,0 +1,35 @@
+header{
+    background: rgb(190,0,253);
+    background: linear-gradient(172deg, rgba(190,0,253,1) 0%, rgba(0,204,188,1) 100%);
+    div{
+        position: relative;
+        .container_header {
+            width: 80%;
+            height: 500px;
+            margin: auto;
+            img{
+                position: relative;
+                top: 30%;
+                width: 50px;
+                border-radius: 50%;
+                height: 50px;
+            }
+            h1 {
+                position: relative;
+                top: 30%;
+                color: white;
+            }
+            i {
+                position: relative;
+                top: 30%;
+                margin: 0 20px;
+                font-size: 30px;
+                color: rgba(22, 54, 10, 0.466);
+                padding: 10px 12px;
+                background:white;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
